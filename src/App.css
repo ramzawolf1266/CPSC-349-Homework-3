@@ -90,18 +90,15 @@ body {
   transition: background-color 0.3s ease; /* This makes the color change smooth */
 }
 
-/* The hover state - makes it darker */
 .pagination-bar button:hover:not(:disabled) {
   background-color: #217dbb; /* A noticeably darker blue */
 }
 
-/* The active state - gives a "pressed" effect */
 .pagination-bar button:active:not(:disabled) {
   background-color: #1a6191;
   transform: translateY(1px);
 }
 
-/* The disabled state - keep this grey so it doesn't change on hover */
 .pagination-bar button:disabled {
   background-color: #bdc3c7;
   cursor: not-allowed;
@@ -113,7 +110,6 @@ body {
   font-size: 1.2rem;
 }
 
-/* Responsive adjustment for smaller screens */
 @media (max-width: 1100px) {
   .movie-grid { grid-template-columns: repeat(3, 1fr); }
 }
