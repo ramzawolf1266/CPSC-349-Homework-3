@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API_KEY = '798437bd6f271472d1f9f0ace4d7a280'; // <--- Put your key here
+const API_KEY = '798437bd6f271472d1f9f0ace4d7a280'; 
 const BASE_URL = 'https://api.themoviedb.org/3';
 const IMG_PATH = 'https://image.tmdb.org/t/p/w500';
 
